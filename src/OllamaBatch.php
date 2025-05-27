@@ -63,8 +63,8 @@ class OllamaBatch
         $models = $this->getModelsSmallerThan($minModelSize, $maxModelSize);
         echo count($models) . " models in batch\n";
         foreach ($models as $model) {
-//            echo "MODEL: " . $model->name . ' - ' . $model->size . "\n";
-            $this->complete($prompt, $model->name);
+            echo "MODEL: " . $model->name . ' - ' . $model->size . "\n";
+//            $this->complete($prompt, $model->name);
         }
     }
 

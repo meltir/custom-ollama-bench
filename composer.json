@@ -2,7 +2,8 @@
     "require": {
         "ollama/ollama-php-client": "^1.0",
         "symfony/console": "^7.2",
-        "league/flysystem": "^3.29"
+        "league/flysystem": "^3.29",
+        "symfony/dotenv": "^7.2"
     },
     "autoload": {
         "psr-4": {
